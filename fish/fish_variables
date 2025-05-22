@@ -3,6 +3,8 @@
 SETUVAR __fish_initialized:3100
 SETUVAR _fish_abbr__2E_2E_:cd\x20\x2e\x2e
 SETUVAR _fish_abbr_eth0:enp42s0
+SETUVAR _fish_abbr_ga:git\x20add
+SETUVAR _fish_abbr_gc:git\x20commit\x20\x2dm\x20\x22
 SETUVAR _fish_abbr_pinstall:sudo\x20apt\x20install
 SETUVAR _fish_abbr_pupdate:sudo\x20apt\x20update
 SETUVAR _fish_abbr_pupgrade:sudo\x20apt\x20upgrade
