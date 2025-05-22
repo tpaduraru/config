@@ -13,13 +13,13 @@ switch $hostname
 		set -g eth 'enp42s0'
 		set -g prompt_host_color white
 		set -g prompt_symbol_color white
-	case edna
+	case edna.paduraru.net
 		set -g LAN_IP '192.168.0.99'
 		set -g IP '135.134.153.235'
 		set -g eth ''
 		set -g prompt_host_color yellow
 		set -g prompt_symbol_color yellow
-	case hailey
+	case hailey.paduraru.net
 		set -g LAN_IP '192.168.0.95'
 		set -g IP ''
 		set -g eth ''
