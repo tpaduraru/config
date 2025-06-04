@@ -1,10 +1,9 @@
 function ssx
-          if set -q TMUX
-                  set remote $argv[1]
-                  tmux detach-client
-                  ssh $remote 'tmux attach'
-              else
-                  ssh $argv
-              end
+    if set -q TMUX
+        echo $argv[1] > ~/.local/state/ssx
+        tmux detach-client
+    else
+        ssh $argv
+    end
   
 end
